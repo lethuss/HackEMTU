@@ -1,6 +1,6 @@
 ## Vizualisador de tendências *Origem x Destino* por meio de análise e clusetring do histórico de bilhetagem de usuários do serviço publico de mobilidade urbana
 
-* Projeto desenvolvido durante o HACKEMTU 2018 realizado nos dias 7 e 8 de abril de 2018 na Universidade de Campinas - Unicamp. *
+*Projeto desenvolvido durante o HACKEMTU 2018 realizado nos dias 7 e 8 de abril de 2018 na Universidade de Campinas - Unicamp.*
 
 Autores:
 * Gabriel Teston - https://github.com/Gabriel-Teston
