@@ -1,4 +1,9 @@
+
+**Scroll down to see English description.**
+  
+    
 ## Vizualisador de tendências *Origem x Destino* por meio de análise e clusetring do histórico de bilhetagem de usuários do serviço publico de mobilidade urbana
+
 
 *Projeto desenvolvido durante o HACKEMTU 2018 realizado nos dias 7 e 8 de abril de 2018 na Universidade de Campinas - Unicamp.*
 
@@ -17,3 +22,12 @@ O conjunto desses pares passa por um algoritmo de clustering para se obter as ma
 `O-D estimation.py` é o script que faz toda essa análise acima descrita, buscando os dados já cruzados em um banco implementado em um MongoDB local.
 
 O script `ping.py` também foi uma prova de conceito que colheria os pares de embarque e desembarque por meio da infraestrutura de wifi do ônibus. Ao se conectar um usuário, o mesmo seria considerado "embarcado" e, ao desconectá-lo, "desembarcado". Idealmente, essa coleta de dados seria feita por meio de pacotes probe do protocolo WIFI; dessa forma somente seria necessário que os dispositivos, como smartphones, dos usuários estivessem com o WIFI habilitado e não propriamente conectados na rede do ônibus
+
+### Origin x Destination” tendencies visualization tool through analysis and clustering of urban mobility users ticketing data
+
+This tool estimates the pair “Origin x Destination” through the user ticketing and bus geolocation data. With this information a clustering algorithm determines the macro tendencies of displacement of the mobility service users. The results are ploted over a map of the region in question. It can be used to validate the efficiency of existing lines or even suggest new ones. The project was made during the HackEMTU 2018 event held at the University of Campinas, São Paulo.
+
+Authors:
+* Gabriel Teston - https://github.com/Gabriel-Teston
+* Bernardo Rodrigues - https://github.com/lethuss
+* Lucas Dias - https://github.com/luketis
